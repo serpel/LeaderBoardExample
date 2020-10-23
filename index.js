@@ -4,7 +4,9 @@ var app = express();
 
 app.use(bodyParser());
 
-var server = app.listen(8081, function () {
+const port = process.env.PORT || 3000;
+
+var server = app.listen(port, function () {
     console.log("hola mundo estoy vivo!!!!");
 });
 
