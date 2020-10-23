@@ -1,5 +1,4 @@
 var express = require('express');
-var sql = require('mssql');
 var bodyParser = require('body-parser');
 var app = express();
 
